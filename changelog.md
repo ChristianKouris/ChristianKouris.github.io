@@ -1,4 +1,4 @@
-# Changelog for https://ckouriscse134hw5.web.app
+# Changelog for https://christiankouris.github.io/
 
 All the changes will be added in rough order from the most recent on top to the least recent on bottom.
 
