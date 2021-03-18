@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+
+header, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: antiquewhite;
+}
+
+header {
+    border-bottom: solid navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    border-top: solid navy;
+    padding: 1.5em;
+}
+
+main {
+    margin: 0.5em;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+header section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p span {
+    float: right;
+}
+
+nav {
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+    padding: 1em;
+    margin: 0em 0.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border: solid goldenrod;
+    padding: 1em;
+    margin: 0em 1em;
+    border-radius: 1em;
+}
+
+#rightbutton {
+    text-decoration: none;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    border: solid goldenrod;
+    padding: 0.5em;
+    margin: 0em 1em;
+    border-radius: 1em;
+}   
+
+nav a:hover, footer a:hover, #rightbutton:hover {
+    background-color: indianred;
+    border-color: darkred;
+}
+
+.handwritten {
+    font-family: "Brush Script MT", cursive;
+}
+
+.animated {
+    animation: 5s infinite alternate travel;
+}
+
+.grid {
+    font-family: muthur, monospace;
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    grid-template-areas: 'header header header' 'left middle right';
+}
+
+.headergrid {
+    grid-area: header;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.leftgrid {
+    grid-area: left;
+}
+
+.middlegrid {
+    grid-area: middle;
+}
+
+.rightgrid {
+    grid-area: right;
+}
+
+#bio {
+    overflow: auto;
+    margin: 1em;
+}
+
+#bio > picture {
+    float: left;
+    margin-right: 2em;
+}
+
+#UCSDMap {
+    border: 1px solid black
+}
+
+
+@font-face {
+    font-family: muthur;
+    src: url(../fonts/Berthold_City_Light.otf);
+}
+
+@keyframes travel {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 30%;
+    }
+}
