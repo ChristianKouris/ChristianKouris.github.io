@@ -1,14 +1,14 @@
 # ChristianKouris.github.io
 
-This is my website.
+This is the current website of Christian Kouris.
 
 Changes will be in changelog.md.
 
 TODO
 -------------
 
-- Make a darkmode and other themes
+- Make multiple themes (lightmode, etc.) and make a way to switch between them
 
-- Add page with links.
+- Add page with links
 
 - Think of other things to add
