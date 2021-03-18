@@ -1,11 +1,13 @@
 body {
     margin: 0px;
+    color: snow;
+    background-color: #404040;
 }
 
 header, footer {
     text-align: center;
-    background-color: steelblue;
-    color: antiquewhite;
+    background-color: #202020;
+    color: snow;
 }
 
 header {
@@ -16,7 +18,7 @@ header {
 }
 
 footer {
-    border-top: solid navy;
+    border-top: solid black;
     padding: 1.5em;
 }
 
@@ -46,35 +48,25 @@ nav {
     padding: 1em;
 }
 
-nav a {
+nav a, #rightbutton {
     text-decoration: none;
-    color: black;
-    background-color: lightgoldenrodyellow;
-    border-left: 2px solid goldenrod;
-    border-right: 2px solid goldenrod;
+    color: snow;
+    background-color: lightpink;
+    border-left: 2px solid hotpink;
+    border-right: 2px solid hotpink;
     padding: 1em;
     margin: 0em 0.5em;
 }
 
 footer a {
     text-decoration: none;
-    color: black;
-    background-color: lightgoldenrodyellow;
-    border: solid goldenrod;
+    color: snow;
+    background-color: lightpink;
+    border: solid hotpink;
     padding: 1em;
     margin: 0em 1em;
     border-radius: 1em;
 }
-
-#rightbutton {
-    text-decoration: none;
-    color: black;
-    background-color: lightgoldenrodyellow;
-    border: solid goldenrod;
-    padding: 0.5em;
-    margin: 0em 1em;
-    border-radius: 1em;
-}   
 
 nav a:hover, footer a:hover, #rightbutton:hover {
     background-color: indianred;
