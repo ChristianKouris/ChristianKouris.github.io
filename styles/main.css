@@ -51,7 +51,7 @@ nav {
 nav a, #rightbutton {
     text-decoration: none;
     color: snow;
-    background-color: lightpink;
+    background-color: orchid;
     border-left: 2px solid hotpink;
     border-right: 2px solid hotpink;
     padding: 1em;
@@ -61,7 +61,7 @@ nav a, #rightbutton {
 footer a {
     text-decoration: none;
     color: snow;
-    background-color: lightpink;
+    background-color: orchid;
     border: solid hotpink;
     padding: 1em;
     margin: 0em 1em;
