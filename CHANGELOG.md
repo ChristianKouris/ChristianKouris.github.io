@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added a way to keep the theme between pages and between sessions
 - Added a way to change themes on a single page on a single visit (default is darkmode)
 - Added 2 themes: a light mode and a dark mode
 - Added a dropdown menu for future site themes

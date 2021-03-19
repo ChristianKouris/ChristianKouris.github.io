@@ -9,9 +9,7 @@ TODO
 
 - Make more fun themes
 
-- Find a way to save theme when changing pages
-
-- Find a wat to save theme when exiting and reentering site
+- have the current theme not show up in the dropdown
 
 - Add page with links
 
