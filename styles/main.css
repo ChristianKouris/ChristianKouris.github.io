@@ -1,13 +1,20 @@
+:root {
+    --textcolor: snow;
+    --backgroundcolor: #404040;
+    --headerbackground: #202020;
+    --buttoncolor: orchid;
+    --buttonborder: 2px solid hotpink;
+}
+
 body {
     margin: 0px;
-    color: snow;
-    background-color: #404040;
+    color: var(--textcolor);
+    background-color: var(--backgroundcolor);
 }
 
 header, footer {
     text-align: center;
-    background-color: #202020;
-    color: snow;
+    background-color: var(--headerbackground);
 }
 
 header {
@@ -50,19 +57,19 @@ nav {
 
 nav a, #rightbutton {
     text-decoration: none;
-    color: snow;
-    background-color: orchid;
-    border-left: 2px solid hotpink;
-    border-right: 2px solid hotpink;
+    color: var(--textcolor);
+    background-color: var(--buttoncolor);
+    border-left: var(--buttonborder);
+    border-right: var(--buttonborder);
     padding: 1em;
     margin: 0em 0.5em;
 }
 
 footer a {
     text-decoration: none;
-    color: snow;
-    background-color: orchid;
-    border: solid hotpink;
+    color: var(--textcolor);
+    background-color: var(--buttoncolor);
+    border: var(--buttonborder);
     padding: 1em;
     margin: 0em 1em;
     border-radius: 1em;
