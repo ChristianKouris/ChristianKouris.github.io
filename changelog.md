@@ -5,6 +5,8 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added a way to change themes on a single page on a single visit (default is darkmode)
+- Added 2 themes: a light mode and a dark mode
 - Added a dropdown menu for future site themes
 - Changed current default theme to be a darkmode and remove unused page
 - Added files to github pages, updated README and CHANGELOG

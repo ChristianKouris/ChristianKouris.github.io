@@ -15,20 +15,20 @@
 <body>
     <header>
         <nav>
-            <h1>Resume</h1>
+            <h1>Christian Kouris</h1>
             <a href="/">HOME</a>
             <a href="/resume/">RESUME</a>
         </nav>
         <div class="dropdown">
-            <p class="dropBtn">THEMES</p>
+            <p class="dropBtn" id="themeBtn">THEME: Dark</p>
             <div class="dropdown-content">
-                <p id="dark">Dark Mode</p>
-                <p id="light">Light Mode</p>
+                <p id="dark">Dark</p>
+                <p id="light">Light</p>
             </div>
         </div>
     </header>
 
-	<main>
+    <main>
         <section class="resume_body">
             <h2>Christian Kouris</h2>
 
@@ -88,11 +88,15 @@
             </ul>
 
         </section>
-	</main>
+    </main>
 
-	<footer>
-		<a href="/resume/resume.pdf" download>Download Resume here.</a>
-	</footer>
+    <footer>
+        <a href="/resume/resume.pdf" download>Download Resume here.</a>
+    </footer>
+    
+    <script type="module" src="/scripts/main.js"></script>
+    <script nomodule>document.write(`Error: Modern Browser Required For Themes`);</script>
+
 </body>
 
 </html>

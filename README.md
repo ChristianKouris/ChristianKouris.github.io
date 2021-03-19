@@ -7,7 +7,11 @@ Changes will be in changelog.md.
 TODO
 -------------
 
-- Make multiple themes (lightmode, etc.) and make a way to switch between them
+- Make more fun themes
+
+- Find a way to save theme when changing pages
+
+- Find a wat to save theme when exiting and reentering site
 
 - Add page with links
 
