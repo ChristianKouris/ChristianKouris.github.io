@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added a dropdown menu for future site themes
 - Changed current default theme to be a darkmode and remove unused page
 - Added files to github pages, updated README and CHANGELOG
 - Removed the Google Font that was in the HTML header as it slowed down the first paint, also it was a bit hard to read

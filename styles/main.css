@@ -96,7 +96,7 @@ footer a {
     background-color: var(--buttoncolor);
     width: auto;
     height: 1em;
-    padding: 1em;
+    padding: 1em 0em;
     margin: 0px;
     text-decoration: none;
     display: block;
