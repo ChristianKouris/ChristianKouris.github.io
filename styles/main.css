@@ -94,7 +94,7 @@ footer a {
 }
 
 .dropdown-content p {
-    color: var(--textcolor);
+    color: var(--headercolor);
     border: var(--buttonborder);
     background-color: var(--buttoncolor);
     width: auto;

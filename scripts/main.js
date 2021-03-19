@@ -12,18 +12,19 @@ function init() {
 function themeChooser(theme) {
 	switch (theme) {
 		case 'dark':
-			applyTheme('snow', '#404040');
+			applyTheme(theme, 'snow', '#404040');
 			break;
 		case 'light':
-			applyTheme('black', 'lavenderblush');
+			applyTheme(theme, 'black', 'lavenderblush');
 			break;
 		default:
 			console.log(`Invalid theme: ${theme}`);
 	}
 }
 
-function applyTheme(tc, bc) {
-	var r = document.querySelector(':root');
+function applyTheme(id, tc, bc) {
+	document.getElementById('themeBtn').innerHTML = `THEME: ${document.getElementById(id).innerHTML}`;
+	let r = document.querySelector(':root');
 	r.style.setProperty('--textcolor', tc);
 	r.style.setProperty('--backgroundcolor', bc);
 }
