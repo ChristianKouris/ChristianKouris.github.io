@@ -3,6 +3,7 @@
     --backgroundcolor: #404040;
     --headerbackground: #202020;
     --headerborder: solid black;
+    --headercolor: snow;
     --buttoncolor: rebeccapurple;
     --buttonborder: 2px solid indigo;
     --hoverbackground: indianred;
@@ -18,6 +19,7 @@ body {
 header, footer {
     text-align: center;
     background-color: var(--headerbackground);
+    color: var(--headercolor);
 }
 
 header {
@@ -52,7 +54,7 @@ p span {
 
 nav a, .dropBtn {
     text-decoration: none;
-    color: var(--textcolor);
+    color: var(--headercolor);
     background-color: var(--buttoncolor);
     border-left: var(--buttonborder);
     border-right: var(--buttonborder);
@@ -69,7 +71,7 @@ nav a, .dropBtn {
 
 footer a {
     text-decoration: none;
-    color: var(--textcolor);
+    color: var(--headercolor);
     background-color: var(--buttoncolor);
     border: var(--buttonborder);
     padding: 1em;
