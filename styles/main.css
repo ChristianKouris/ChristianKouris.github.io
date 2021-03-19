@@ -37,8 +37,9 @@ main {
 }
 
 h1 {
-    margin: 0px;
+    margin: 1em;
     width: 10em;
+    display: inline;
 }
 
 h3 {
@@ -47,12 +48,6 @@ h3 {
 
 p span {
     float: right;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 nav a, .dropBtn {
