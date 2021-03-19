@@ -56,13 +56,15 @@ nav a, .dropBtn {
     background-color: var(--buttoncolor);
     border-left: var(--buttonborder);
     border-right: var(--buttonborder);
-    padding: 1em;
+    padding: 1em 0em;
+    width: 6em;
     margin: 0em 0.5em;
     display: inline-block;
 }
 
 .dropBtn {
     margin: 0em;
+    width: 12em;
 }
 
 footer a {
