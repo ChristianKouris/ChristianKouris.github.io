@@ -3,8 +3,10 @@
     --backgroundcolor: #404040;
     --headerbackground: #202020;
     --headerborder: solid black;
-    --buttoncolor: orchid;
+    --buttoncolor: PaleVioletRed;
     --buttonborder: 2px solid hotpink;
+    --hoverbackground: indianred;
+    --hoverborder: darkred;
 }
 
 body {
@@ -108,8 +110,8 @@ footer a {
 }
 
 nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
-    background-color: indianred;
-    border-color: darkred;
+    background-color: var(--hoverbackground);
+    border-color: var(--hoverborder);
 }
 
 .handwritten {
