@@ -2,6 +2,7 @@
     --textcolor: snow;
     --backgroundcolor: #404040;
     --headerbackground: #202020;
+    --headerborder: solid black;
     --buttoncolor: orchid;
     --buttonborder: 2px solid hotpink;
 }
@@ -18,14 +19,14 @@ header, footer {
 }
 
 header {
-    border-bottom: solid black;
+    border-bottom: var(--headerborder);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 footer {
-    border-top: solid black;
+    border-top: var(--headerborder);
     padding: 1.5em;
 }
 
@@ -75,9 +76,28 @@ footer a {
     border-radius: 1em;
 }
 
+#rightbutton {
+    position: relative;
+    display: inline-block;
+}
+
 nav a:hover, footer a:hover, #rightbutton:hover {
     background-color: indianred;
     border-color: darkred;
+}
+
+.dropdown p {
+    display: none;
+    position: absolute;
+    background-color: var(--buttoncolor);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#rightbutton:hover .dropdown {
+    display: block;
 }
 
 .handwritten {
