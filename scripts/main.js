@@ -42,8 +42,14 @@ function applyTheme(id, txCo, txFo, baCo, heBa, heBo, heCo, buCo, buBo, hoBa, ho
 	document.getElementById(id).setAttribute('style', 'display: none');
 	document.getElementById('themeBtn').innerHTML = `THEME: ${document.getElementById(id).innerHTML}`;
 	//update the page with the theme
+	let cssVars = ['--textcolor', '--textfont', '--backgroundcolor', '--headerbackground', '--headerborder', '--headercolor', '--buttoncolor', '--buttonborder', '--hoverbackground', '--hoverborder', '--fancyfont', '--terminalfont'];
+	let inputs = [txCo, txFo, baCo, heBa, heBo, heCo, buCo, buBo, hoBa, hoBo, faFo, teFo]
 	let r = document.querySelector(':root');
-	r.style.setProperty('--textcolor', txCo);
+	let i;
+	for (i = 0; i < cssVars.length; i++) {
+		r.style.setProperty(cssVars[i], inputs[i]);
+	}
+	/*r.style.setProperty('--textcolor', txCo);
 	r.style.setProperty('--textfont', txFo);
 	r.style.setProperty('--backgroundcolor', baCo);
 	r.style.setProperty('--headerbackground', heBa);
@@ -54,7 +60,7 @@ function applyTheme(id, txCo, txFo, baCo, heBa, heBo, heCo, buCo, buBo, hoBa, ho
 	r.style.setProperty('--hoverbackground', hoBa);
 	r.style.setProperty('--hoverborder', hoBo);
 	r.style.setProperty('--fancyfont', faFo);
-	r.style.setProperty('--terminalfont', teFo);
+	r.style.setProperty('--terminalfont', teFo);*/
 }
 
 /* wait until the DOM is loaded before we can do any of this */
