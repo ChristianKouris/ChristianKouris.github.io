@@ -1,5 +1,6 @@
 :root {
     --textcolor: snow;
+    --textfont: "Times New Roman", Times, serif;
     --backgroundcolor: #404040;
     --headerbackground: #202020;
     --headerborder: solid black;
@@ -8,12 +9,14 @@
     --buttonborder: 2px solid indigo;
     --hoverbackground: indianred;
     --hoverborder: darkred;
+    --fancyfont: "Brush Script MT", cursive;
 }
 
 body {
     margin: 0px;
     color: var(--textcolor);
     background-color: var(--backgroundcolor);
+    font-family: var(--textfont);
 }
 
 header, footer {
@@ -42,10 +45,6 @@ h1 {
     margin: 0em;
     width: 10em;
     display: inline-block;
-}
-
-h3 {
-    font-family: "Times New Roman", Times, serif;
 }
 
 p span {
@@ -115,7 +114,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 }
 
 .handwritten {
-    font-family: "Brush Script MT", cursive;
+    font-family: var(--fancyfont);
 }
 
 .animated {
@@ -132,7 +131,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
 .headergrid {
     grid-area: header;
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--textfont);
 }
 
 .leftgrid {

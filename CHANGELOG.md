@@ -5,6 +5,8 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added a theme based on the terminal in the movie franchise Alien, MU-TH-UR
+- Added feature where current theme does not show up on dropdown
 - Added a way to keep the theme between pages and between sessions
 - Added a way to change themes on a single page on a single visit (default is darkmode)
 - Added 2 themes: a light mode and a dark mode

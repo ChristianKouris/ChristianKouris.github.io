@@ -7,10 +7,8 @@ Changes will be in changelog.md.
 TODO
 -------------
 
-- Make more fun themes
-
-- have the current theme not show up in the dropdown
-
 - Add page with links
+
+- Make more fun themes
 
 - Think of other things to add

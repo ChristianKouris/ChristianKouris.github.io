@@ -6,6 +6,7 @@
 function init() {
 	document.getElementById('dark').addEventListener('click', function () { themeChooser('dark'); });
 	document.getElementById('light').addEventListener('click', function () { themeChooser('light'); });
+	document.getElementById('muthur').addEventListener('click', function () { themeChooser('muthur'); });
 	if (localStorage.getItem('theme') == null) {
 		localStorage.setItem('theme', 'dark');
 	}
@@ -16,10 +17,13 @@ function init() {
 function themeChooser(theme) {
 	switch (theme) {
 		case 'dark':
-			applyTheme(theme, 'snow', '#404040');
+			applyTheme(theme, 'snow', `"Times New Roman", Times, serif`, '#404040', '#202020', 'solid black', 'snow', 'rebeccapurple', '2px solid indigo', 'indianred', 'darkred', `"Brush Script MT", cursive`);
 			break;
 		case 'light':
-			applyTheme(theme, 'black', 'lavenderblush');
+			applyTheme(theme, 'black', `"Times New Roman", Times, serif`, 'lavenderblush', '#202020', 'solid black', 'snow', 'rebeccapurple', '2px solid indigo', 'indianred', 'darkred', `"Brush Script MT", cursive`);
+			break;
+		case 'muthur':
+			applyTheme(theme, '#12b853', `muthur, monospace`, 'black', 'black', 'solid black', '#12b853', 'black', '2px solid black', 'black', 'black', `muthur, monospace`);
 			break;
 		default:
 			console.log(`Invalid theme: ${theme}`);
@@ -27,7 +31,7 @@ function themeChooser(theme) {
 }
 
 /* Master function which changes all the css vars based on the theme */
-function applyTheme(id, tc, bc) {
+function applyTheme(id, txCo, txFo, baCo, heBa, heBo, heCo, buCo, buBo, hoBa, hoBo, faFo) {
 	//update local storage, hide the button and tell user what theme is equiped
 	document.getElementById(localStorage.getItem('theme')).removeAttribute('style');
 	localStorage.setItem('theme', id);
@@ -35,8 +39,17 @@ function applyTheme(id, tc, bc) {
 	document.getElementById('themeBtn').innerHTML = `THEME: ${document.getElementById(id).innerHTML}`;
 	//update the page with the theme
 	let r = document.querySelector(':root');
-	r.style.setProperty('--textcolor', tc);
-	r.style.setProperty('--backgroundcolor', bc);
+	r.style.setProperty('--textcolor', txCo);
+	r.style.setProperty('--textfont', txFo);
+	r.style.setProperty('--backgroundcolor', baCo);
+	r.style.setProperty('--headerbackground', heBa);
+	r.style.setProperty('--headerborder', heBo);
+	r.style.setProperty('--headercolor', heCo);
+	r.style.setProperty('--buttoncolor', buCo);
+	r.style.setProperty('--buttonborder', buBo);
+	r.style.setProperty('--hoverbackground', hoBa);
+	r.style.setProperty('--hoverborder', hoBo);
+	r.style.setProperty('--fancyfont', faFo);
 }
 
 /* wait until the DOM is loaded before we can do any of this */
