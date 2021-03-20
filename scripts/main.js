@@ -27,7 +27,7 @@ function themeChooser(theme) {
 			applyTheme(theme, '#12b853', `muthur, monospace`, 'black', 'black', 'solid black', '#12b853', 'black', '2px solid black', 'black', 'black', `muthur, monospace`, `muthur, monospace`);
 			break;
 		case 'aurebesh':
-			applyTheme(theme, 'snow', `aurebesh, monospace`, '#404040', '#202020', 'solid black', 'snow', 'rebeccapurple', '2px solid indigo', 'indianred', 'darkred', `aurebesh, monospace`, `aurebesh, monospace`);
+			applyTheme(theme, 'gold', `aurebesh, serif`, 'black', 'gold', 'solid black', 'black', 'deepskyblue', '2px solid blue', 'indianred', 'darkred', `aurebesh, cursive`, `aurebesh, monospace`);
 			break;
 		default:
 			console.log(`Invalid theme: ${theme}`);
@@ -49,18 +49,6 @@ function applyTheme(id, txCo, txFo, baCo, heBa, heBo, heCo, buCo, buBo, hoBa, ho
 	for (i = 0; i < cssVars.length; i++) {
 		r.style.setProperty(cssVars[i], inputs[i]);
 	}
-	/*r.style.setProperty('--textcolor', txCo);
-	r.style.setProperty('--textfont', txFo);
-	r.style.setProperty('--backgroundcolor', baCo);
-	r.style.setProperty('--headerbackground', heBa);
-	r.style.setProperty('--headerborder', heBo);
-	r.style.setProperty('--headercolor', heCo);
-	r.style.setProperty('--buttoncolor', buCo);
-	r.style.setProperty('--buttonborder', buBo);
-	r.style.setProperty('--hoverbackground', hoBa);
-	r.style.setProperty('--hoverborder', hoBo);
-	r.style.setProperty('--fancyfont', faFo);
-	r.style.setProperty('--terminalfont', teFo);*/
 }
 
 /* wait until the DOM is loaded before we can do any of this */
