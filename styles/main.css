@@ -10,6 +10,7 @@
     --hoverbackground: indianred;
     --hoverborder: darkred;
     --fancyfont: "Brush Script MT", cursive;
+    --terminalfont: muthur, monospace;
 }
 
 body {
@@ -122,7 +123,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 }
 
 .grid {
-    font-family: muthur, monospace;
+    font-family: var(--terminalfont);
     display: grid;
     justify-content: left;
     align-content: center;
@@ -164,6 +165,11 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 @font-face {
     font-family: muthur;
     src: url(../fonts/Berthold_City_Light.otf);
+}
+
+@font-face {
+    font-family: aurebesh;
+    src: url(../fonts/Aurebesh.otf);
 }
 
 @keyframes travel {
