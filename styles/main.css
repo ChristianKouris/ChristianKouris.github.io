@@ -203,6 +203,9 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
         width: 100%;
         display: block;
     }
+    .dropdown-content {
+        position: static;
+    }
 }
 
 @font-face {
