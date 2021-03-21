@@ -24,6 +24,7 @@ body {
 header, footer {
     text-align: center;
     background-color: var(--headerbackground);
+    font-family: var(--headerfont);
     color: var(--headercolor);
 }
 
