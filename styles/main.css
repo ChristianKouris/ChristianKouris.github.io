@@ -171,12 +171,12 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     grid-area: right;
 }
 
-#bio {
+.bio {
     overflow: auto;
     margin: 1em;
 }
 
-#bio > picture {
+.bio picture {
     float: left;
     margin-right: 2em;
 }
@@ -217,6 +217,10 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
     .dropdown-content {
         position: static;
+    }
+
+    .bio picture {
+        float: none;
     }
 }
 
