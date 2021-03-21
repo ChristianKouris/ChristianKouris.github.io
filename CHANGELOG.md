@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Made links have a shadow glow when hovered over
 - Made links be clickable images
 - Added barebones link page
 - Added an aurebesh theme based on the Star Wars language Aurebesh

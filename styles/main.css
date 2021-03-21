@@ -118,9 +118,11 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
 .links a {
     margin: 50px;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.links a:hover {
+.links img:hover {
     box-shadow: 2px 2px 5px var(--textcolor);
 }
 
