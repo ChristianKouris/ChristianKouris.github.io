@@ -50,6 +50,11 @@ h1 {
     display: inline-block;
 }
 
+iframe {
+    height: 450px;
+    width: 600px;
+}
+
 p span {
     float: right;
 }
@@ -190,10 +195,17 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     header {
         flex-direction: column;
     }
+
+    iframe {
+        height: 225px;
+        width: 300px;
+    }
+
     .dropdown, nav {
         margin: 0em;
         width: 100%;
     }
+
     nav a, .dropBtn {
         border-top: var(--buttonborder);
         border-bottom: var(--buttonborder);
@@ -203,6 +215,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
         width: 100%;
         display: block;
     }
+
     .dropdown-content {
         position: static;
     }
