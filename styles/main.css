@@ -197,8 +197,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     }
 
     iframe {
-        height: 225px;
-        width: 300px;
+        width: 100%;
     }
 
     .dropdown, nav {

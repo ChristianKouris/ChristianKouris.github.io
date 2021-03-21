@@ -5,7 +5,8 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
-- Made site more mobile friendly
+- Made iframes mobile friendly, now mobile users shouldn't have to scroll left/right
+- Made link page more mobile friendly
 - Made links have a shadow glow when hovered over
 - Made links be clickable images
 - Added barebones link page
