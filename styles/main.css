@@ -190,7 +190,17 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     header {
         flex-direction: column;
     }
-    nav a{
+    .dropdown, nav {
+        margin: 0em;
+        width: 100%;
+    }
+    nav a, .dropBtn {
+        border-top: var(--buttonborder);
+        border-bottom: var(--buttonborder);
+        border-left: 0px;
+        border-right: 0px;
+        margin: 0em;
+        width: 100%;
         display: block;
     }
 }
