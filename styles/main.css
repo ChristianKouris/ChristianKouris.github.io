@@ -117,7 +117,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 }
 
 .links a {
-    margin: 50px;
+    width: 50%;
     text-decoration: none;
     display: inline-block;
 }
@@ -173,6 +173,13 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     border: 1px solid black
 }
 
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 1000%;
+    }
+}
 
 @font-face {
     font-family: muthur;
