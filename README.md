@@ -7,7 +7,7 @@ Changes will be in changelog.md.
 TODO
 -------------
 
-- Add page with links
+- Make links page more interesting
 
 - Make more fun themes
 
