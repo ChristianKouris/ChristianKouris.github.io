@@ -183,8 +183,8 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 1050px) {
-    .column {
-        width: 1000%;
+    .links a {
+        width: 100%;
     }
 }
 
