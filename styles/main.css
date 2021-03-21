@@ -180,11 +180,18 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     border: 1px solid black
 }
 
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 1050px) {
     .links a {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
     }
 }
 
