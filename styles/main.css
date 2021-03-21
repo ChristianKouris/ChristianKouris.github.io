@@ -116,6 +116,10 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     border-color: var(--hoverborder);
 }
 
+.links a {
+    display: block
+}
+
 .handwritten {
     font-family: var(--fancyfont);
 }

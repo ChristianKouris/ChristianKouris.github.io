@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Made links be clickable images
 - Added barebones link page
 - Added an aurebesh theme based on the Star Wars language Aurebesh
 - Added a theme based on the terminal in the movie franchise Alien, MU-TH-UR
