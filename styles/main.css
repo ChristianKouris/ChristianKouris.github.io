@@ -123,7 +123,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 }
 
 .links img:hover {
-    box-shadow: 2px 2px 5px var(--textcolor);
+    box-shadow: 5px 5px 5px var(--textcolor);
 }
 
 .handwritten {
