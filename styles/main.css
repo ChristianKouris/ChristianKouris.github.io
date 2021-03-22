@@ -122,7 +122,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 }
 
 .links a {
-    width: 50%;
+    width: 33%;
     text-decoration: none;
     float: left;
     margin: 2em 0em;
@@ -183,6 +183,12 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
 #UCSDMap {
     border: 2px solid var(--textcolor);
+}
+
+@media screen and (max-width: 1550px) {
+    .links a {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
