@@ -2,7 +2,7 @@
  * main.js
  */
 
-/* put the event handlers after the DOM is loaded and set the stored theme*/
+/* Put the event handlers after the DOM is loaded and set the stored theme*/
 function init() {
 	document.getElementById('dark').addEventListener('click', function () { themeChooser('dark'); });
 	document.getElementById('light').addEventListener('click', function () { themeChooser('light'); });
@@ -52,5 +52,5 @@ function applyTheme(id, txCo, txFo, baCo, heBa, heBo, heCo, heFo, buCo, buBo, ho
 	}
 }
 
-/* wait until the DOM is loaded before we can do any of this */
+/* Wait until the DOM is loaded before we can do any of this */
 window.addEventListener('DOMContentLoaded', init);

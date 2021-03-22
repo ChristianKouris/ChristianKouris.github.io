@@ -1,3 +1,4 @@
+/* Define all of the global variables so they can be changed in main.js */
 :root {
     --textcolor: snow;
     --textfont: "Times New Roman", Times, serif;
@@ -59,6 +60,7 @@ p span {
     float: right;
 }
 
+/* Decorate header and footer buttons */
 nav a, .dropBtn {
     text-decoration: none;
     color: var(--headercolor);
@@ -86,6 +88,7 @@ footer a {
     border-radius: 1em;
 }
 
+/* Dropdown button shows themes when hovered over */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -146,6 +149,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     animation: 5s infinite alternate travel;
 }
 
+/* have a grid of lists */
 .grid {
     font-family: var(--terminalfont);
     display: grid;
@@ -185,18 +189,21 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     border: 2px solid var(--textcolor);
 }
 
+/* Split the links from three to two if there isn't enough room */
 @media screen and (max-width: 1550px) {
     .links a {
         width: 50%;
     }
 }
 
+/* Make the links only be one column if we can't fit two */
 @media screen and (max-width: 1050px) {
     .links a {
         width: 100%;
     }
 }
 
+/* If the screen is small, change everything that flowed left to right so it flows up to down */
 @media screen and (max-width: 900px) {
     header {
         flex-direction: column;
@@ -230,6 +237,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     }
 }
 
+/* Import downloaded fonts */
 @font-face {
     font-family: muthur;
     src: url(../fonts/Berthold_City_Light.otf);
@@ -240,6 +248,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     src: url(../fonts/Aurebesh_Condensed.otf);
 }
 
+/* Simple CSS animation */
 @keyframes travel {
     from {
         margin-left: 0%;
