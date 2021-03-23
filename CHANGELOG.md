@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added a link to email and the github page for the site
 - Made iframes mobile friendly, now mobile users shouldn't have to scroll left/right
 - Made link page more mobile friendly
 - Made links have a shadow glow when hovered over
