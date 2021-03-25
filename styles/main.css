@@ -124,6 +124,11 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     border-color: var(--hoverborder);
 }
 
+.links {
+    overflow: auto;
+    min-height: 800px;
+}
+
 .links a {
     width: 33%;
     text-decoration: none;
@@ -220,6 +225,10 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
     iframe {
         width: 100%;
+    }
+
+    .links {
+        min-height: 0px;
     }
 
     .dropdown, nav {
