@@ -79,6 +79,11 @@ table, th, td {
     border-collapse: collapse;
 }
 
+th, td {
+    padding: 5px, 1em;
+    text-align: center;
+}
+
 .dropBtn {
     margin: 0em;
     width: 12em;
