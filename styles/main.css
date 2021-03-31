@@ -74,6 +74,11 @@ nav a, .dropBtn {
     display: inline-block;
 }
 
+table, th, td {
+    border: 1px solid var(--textcolor);
+    border-collapse: collapse;
+}
+
 .dropBtn {
     margin: 0em;
     width: 12em;
