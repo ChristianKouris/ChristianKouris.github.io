@@ -43,6 +43,7 @@ footer {
 
 main {
     margin: 0.5em;
+    min-height: 800px;
 }
 
 h1 {
@@ -126,7 +127,6 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
 
 .links {
     overflow: auto;
-    min-height: 800px;
 }
 
 .links a {

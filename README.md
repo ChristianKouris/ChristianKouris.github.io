@@ -7,6 +7,6 @@ Changes will be in changelog.md.
 TODO
 -------------
 
-- Make more fun themes
+- Expand classes page
 
 - Think of other things to add
