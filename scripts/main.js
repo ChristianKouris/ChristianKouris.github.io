@@ -2,7 +2,7 @@
  * main.js
  */
 
-/* Put the event handlers after the DOM is loaded and set the stored theme*/
+/* Put the event handlers after the DOM is loaded and set the stored theme */
 function init() {
 	document.getElementById('dark').addEventListener('click', function () { themeChooser('dark'); });
 	document.getElementById('light').addEventListener('click', function () { themeChooser('light'); });
