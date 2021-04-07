@@ -84,6 +84,10 @@ th, td {
     text-align: center;
 }
 
+td:nth-child(4) {
+    text-align: left;
+}
+
 .dropBtn {
     margin: 0em;
     width: 12em;

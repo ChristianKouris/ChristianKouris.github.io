@@ -5,6 +5,7 @@ All the changes will be added in rough order from the most recent on top to the 
 Changes
 --------------------
 
+- Added course descriptions to the classes
 - Added classes page
 - Added a link to email and the github page for the site
 - Made iframes mobile friendly, now mobile users shouldn't have to scroll left/right
