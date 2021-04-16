@@ -7,6 +7,4 @@ Changes will be in changelog.md.
 TODO
 -------------
 
-- Expand classes page
-
 - Think of other things to add
