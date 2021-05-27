@@ -217,6 +217,11 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     text-shadow: 2px 2px 5px var(--textcolor);
 }
 
+#sills > ul {
+    display: inline-block;
+    width: 20%;
+}
+
 /* Split the links from three to two if there isn't enough room */
 @media screen and (max-width: 1550px) {
     .links a {
