@@ -217,7 +217,7 @@ nav a:hover, footer a:hover, .dropBtn:hover, .dropdown-content p:hover {
     text-shadow: 2px 2px 5px var(--textcolor);
 }
 
-#sills > ul {
+#skills > ul {
     display: inline-block;
     width: 20%;
 }
