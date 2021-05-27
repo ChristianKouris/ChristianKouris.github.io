@@ -3,8 +3,9 @@
     "",
     "\\classes",
     "\\links",
-    "\\resume"
+    "\\resume",
+    "\\scripts"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\scripts\\main.js",
   "PreviewInSolutionExplorer": false
 }
