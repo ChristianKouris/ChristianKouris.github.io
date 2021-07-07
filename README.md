@@ -7,4 +7,5 @@ Changes will be in changelog.md.
 TODO
 -------------
 
+- Add a projects page
 - Think of other things to add

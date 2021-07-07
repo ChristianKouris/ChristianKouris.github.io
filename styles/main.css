@@ -61,6 +61,10 @@ p span {
     float: right;
 }
 
+section h3 {
+    text-decoration: underline;
+}
+
 /* Decorate header and footer buttons */
 nav a, .dropBtn {
     text-decoration: none;
